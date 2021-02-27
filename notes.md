@@ -36,6 +36,20 @@ git diff 03a9bfb # mostra as diferenças em relação o comit indicado
 git diff --staged #mostra a diferença do que está staged
 ~~~~
 
+## git restore
+
+~~~~bash
+git restore --staged README.md # muda o status do arquivo pra untrack
+
+git restore arquivo # restora arqivo para ultimo commit
+~~~~
+
+## git mv
+
+~~~~bash
+git mv antigo_nome novo_nome # nuda o nome do arquivo
+~~~~
+
 ## fluxo do git
 
 ![flow](./img/flow.png)
