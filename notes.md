@@ -14,8 +14,14 @@ git log --untill=2020-10-01 # mostra commits anteriores 2020-10-01
 git log --author=nick # mostra os commits que o author é o nick
 
 git log --grep="init" # faz uma filtragem nos commits onde a mensagem tivero regex "init"
-
 ~~~~
 
-## git commit 
+## git commit
 
+~~~~bash
+git commit -m "meu primeiro commmit" # faz um commmit cuja mensagem é "meu primeiro commit"
+~~~~
+
+## fluxo do git
+
+![flow](./img/flow.png)
