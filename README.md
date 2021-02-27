@@ -22,6 +22,8 @@ git log --grep="init" # faz uma filtragem nos commits onde a mensagem tivero reg
 git commit -m "meu primeiro commmit" # faz um commmit cuja mensagem é "meu primeiro commit"
 
 git commit --amend -m "modify 1-working-deirectory" # modifica o ultimo commit 
+
+git commit -am "msg" # faz o add antes do commit
 ~~~~
 
 ## git rm
@@ -72,6 +74,22 @@ git checkoout 31431333 -- test # recupera o arquivo test dessa branch
 git clean -n # mostra os arquivos que irá remover para sempre
 
 git clean -f # força remoção dos arquivos
+~~~~
+
+## git revert
+
+~~~~bash
+git revert HEAD # revert até a head
+
+git revert HEAD~2 # revert dois comits antes da HEAd
+~~~~
+
+## git show
+
+~~~~bash
+git show HEAD # mostra as modificalçao no no commit HEAD
+
+git show HEAD -- src #mostra todas as modificações no diretório src
 ~~~~
 
 ## fluxo do git
