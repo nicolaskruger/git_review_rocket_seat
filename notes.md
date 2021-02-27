@@ -58,6 +58,22 @@ git mv antigo_nome novo_nome # nuda o nome do arquivo
 git reset HEAd arquivo # reseta o arquivo para o status na head
 ~~~~
 
+## git checkout
+
+~~~~bash
+git checkout maste # vai até a branch master
+
+git checkoout 31431333 -- test # recupera o arquivo test dessa branch
+~~~~
+
+## git clean
+
+~~~~bash
+git clean -n # mostra os arquivos que irá remover para sempre
+
+git clean -f # força remoção dos arquivos
+~~~~
+
 ## fluxo do git
 
 ![flow](./img/flow.png)
