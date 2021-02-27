@@ -22,6 +22,21 @@ git log --grep="init" # faz uma filtragem nos commits onde a mensagem tivero reg
 git commit -m "meu primeiro commmit" # faz um commmit cuja mensagem é "meu primeiro commit"
 ~~~~
 
+## git rm
+
+~~~~bash
+git rm --cached file2.txt # remove o arquivo do estado stage
+~~~~
+
+## git diff
+
+~~~~bash
+git diff 03a9bfb # mostra as diferenças em relação o comit indicado
+
+git diff --staged #mostra a diferença do que está staged
+~~~~
+
 ## fluxo do git
 
 ![flow](./img/flow.png)
+
