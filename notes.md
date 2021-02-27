@@ -14,49 +14,8 @@ git log --untill=2020-10-01 # mostra commits anteriores 2020-10-01
 git log --author=nick # mostra os commits que o author é o nick
 
 git log --grep="init" # faz uma filtragem nos commits onde a mensagem tivero regex "init"
+
 ~~~~
 
-## git commit
-
-~~~~bash
-git commit -m "meu primeiro commmit" # faz um commmit cuja mensagem é "meu primeiro commit"
-~~~~
-
-## git rm
-
-~~~~bash
-git rm --cached file2.txt # remove o arquivo do estado stage
-~~~~
-
-## git diff
-
-~~~~bash
-git diff 03a9bfb # mostra as diferenças em relação o comit indicado
-
-git diff --staged #mostra a diferença do que está staged
-~~~~
-
-## git restore
-
-~~~~bash
-git restore --staged README.md # muda o status do arquivo pra untrack
-
-git restore arquivo # restora arqivo para ultimo commit
-~~~~
-
-## git mv
-
-~~~~bash
-git mv antigo_nome novo_nome # nuda o nome do arquivo
-~~~~
-
-## git reset
-
-~~~~bash
-git reset HEAd arquivo # reseta o arquivo para o status na head
-~~~~
-
-## fluxo do git
-
-![flow](./img/flow.png)
+## git commit 
 
