@@ -20,6 +20,8 @@ git log --grep="init" # faz uma filtragem nos commits onde a mensagem tivero reg
 
 ~~~~bash
 git commit -m "meu primeiro commmit" # faz um commmit cuja mensagem é "meu primeiro commit"
+
+git commit --amend -m "modify 1-working-deirectory" # modifica o ultimo commit 
 ~~~~
 
 ## git rm
