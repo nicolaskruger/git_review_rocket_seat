@@ -50,6 +50,12 @@ git restore arquivo # restora arqivo para ultimo commit
 git mv antigo_nome novo_nome # nuda o nome do arquivo
 ~~~~
 
+## git reset
+
+~~~~bash
+git reset HEAd arquivo # reseta o arquivo para o status na head
+~~~~
+
 ## fluxo do git
 
 ![flow](./img/flow.png)
